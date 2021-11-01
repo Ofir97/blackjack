@@ -1,4 +1,5 @@
 # blackjack
-simple blackjack game
+
+simple blackjack game with html, css and javascript
 
 
