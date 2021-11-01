@@ -1,0 +1,69 @@
+body {
+    background-image: url("images/casino-table-background.jpg");
+    font-family: 'Merriweather Sans', sans-serif;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 150%;
+    margin-top: 2%;
+    color: rgb(228, 172, 61);
+}
+
+#message-el {
+    background-color: rgb(228, 172, 61);
+    color:rgb(20, 125, 36);
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2px;
+    border-radius: 30%;
+}
+
+button {
+    width: 200px;
+    padding: 10px 18px;
+    background-color: rgb(228, 172, 61);
+    color: rgb(20, 125, 36);
+    font-size: large;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 8px;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+#player-el {
+    font-weight: normal;
+}
+
+#game-container {
+    border: 5px dotted rgb(228, 172, 61);
+    background-color: rgb(163, 84, 57);
+    width: 700px;
+    margin: auto auto;
+}
+
+#message-el.bad-msg {
+    color: rgb(173, 2, 2);
+}
+
+#message-el.blackjack-msg {
+    color: rgb(230, 225, 225);
+    animation: blinker 0.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 20%;
+    }
+}
