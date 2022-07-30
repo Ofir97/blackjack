@@ -2,7 +2,7 @@
 
 simple blackjack game with html, css and javascript
 
-enjoy!!!!!!
+enjoy!
 
 https://pengoled.github.io/blackjack/
 
