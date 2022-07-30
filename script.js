@@ -87,3 +87,4 @@ function generateRandomCard() {
 function renderChipMessage() {
     playerElement.textContent = player.name + ": $" + player.chips
 }
+
